@@ -50,32 +50,24 @@ Learn to efficiently import, configure, and deploy Helm charts within Meshery Pl
 - Copy the repository URL for later use in Meshery.
   ![](./screenshots/H3.png)
 
-#### Converting GitHub Links to GitHub Raw Links as Meshmery compatible
+### Note
 
-When importing Helm Charts into MeshMap, it's essential to have GitHub raw links. Here's how you can convert regular GitHub links to GitHub raw links effortlessly:
-
-1. **Understand GitHub Raw Links Format**:
-   - GitHub raw links follow this format: `https://raw.githubusercontent.com/username/repository/branch/path/to/file.yaml`. They provide direct access to the raw 
-     content of files on GitHub.
-
-2. **Copy GitHub Link**:
-   - After selecting the Helm chart on GitHub, copy the URL link of the file you need.
-
-3. **Use Git-Rawify Tool**:
-   - Access the [Git-Rawify tool](https://git-rawify.vercel.app/#convert).
-   - Paste the copied GitHub link into the provided input field.
-     ![](./screenshots/H4.png)
-
-4. **Convert to GitHub Raw Link**:
-   - The tool automatically converts the GitHub link to a GitHub raw link.
-   - Copy the generated GitHub raw link.
-
-By following these simple steps and utilizing the Git-Rawify tool, you can seamlessly convert GitHub links to GitHub raw links, ensuring compatibility with MeshMap and other platforms requiring raw links for file access.
-
+To import Helm charts into Meshery, GitHub raw links follow this format: `https://raw.githubusercontent.com/username/repository/branch/path/to/file.tgz`.
+Generally, we don't have GitHub raw links readily available, so you can use the [Git-Rawify tool](https://git-rawify.vercel.app/#convert) to convert standard GitHub URLs into raw links. Ensure you copy the file with the `.tgz` extension only.
 
 ### Importing Dapr Helm Chart to MeshMap
 
 1. Open the Meshery playground.
+
+## Note
+
+Importing Meshery designs can be done using several methods, including:
+
+- Importing through the Meshery UI configuration page.
+- Importing through the Meshery CLI.
+- Other available methods.
+
+For more detailed instructions, you can check out the Meshery documentation on importing designs: [Importing Designs](https://docs.meshery.io/guides/configuration-management/importing-designs).
 
 2. On the right side, click on the upward arrow symbol to import designs into Meshery.
 
