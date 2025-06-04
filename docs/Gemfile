@@ -25,8 +25,8 @@ gem 'jekyll-include-cache'
 group :graphqlDocs_plugins do
  gem "rake"
  gem "graphql"
- gem "rails"
- gem "graphql-docs"
+ gem "rails", ">= 8.0.2"
+ gem "graphql-docs", ">= 5.2.0"
  gem "haml"
 
 end
