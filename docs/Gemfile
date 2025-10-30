@@ -27,7 +27,7 @@ group :graphqlDocs_plugins do
  gem "graphql"
  gem "rails"
  gem "graphql-docs"
- gem "haml"
+ gem "haml", ">= 6.3.1"
 
 end
 
